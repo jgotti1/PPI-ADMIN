@@ -6,7 +6,7 @@
 body {
   background-color: lightslategray;
 }
-header {
+.header {
   display: flex;
   width: 100%;
   background-color: orange;
@@ -16,11 +16,18 @@ header {
 .ppi-logo {
   height: 50px;
 }
-h1 {
+.support {
+  color: white;
+  display: flexbox;
+  margin-left: auto;
+  margin-right: 30px;
+}
+header h1 {
   font-family: "Times New Roman", Times, serif;
   color: white;
   margin-left: 10px;
   margin-right: 30px;
+  justify-self: unsafe center;
 }
 .container {
   display: flex;
