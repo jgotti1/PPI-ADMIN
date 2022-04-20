@@ -45,14 +45,13 @@ h3 {
 }
 
 .box {
-  height: 350px;
+  height: 400px;
   background-color: rgb(218, 222, 223);
   flex-basis: 350px;
   justify-content: center;
 }
 .fd-prod,
 .fd-test {
-  height: 350px;
   background-color: rgb(218, 222, 223);
   flex-basis: 350px;
   justify-content: center;
