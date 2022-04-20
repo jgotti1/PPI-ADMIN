@@ -5,6 +5,7 @@
 }
 body {
   background-color: lightslategray;
+  margin-bottom: 30px;
 }
 .header {
   display: flex;
@@ -37,11 +38,11 @@ header h1 {
 h3 {
   color: white;
   background-color: black;
-  height: 18px;
+  height: 25px;
   font-size: 10pt;
   font-family: sans-serif;
   text-align: center;
-  padding-top: 3px;
+  padding-top: 5px;
 }
 
 .box {
@@ -59,12 +60,15 @@ h3 {
 li {
   list-style-position: inside;
   text-align: justify;
-  margin-top: 15px;
+  margin-top: 11px;
   margin-left: 15px;
 }
 a:link,
 a:visited {
   color: blue;
+}
+a:hover {
+  color: grey;
 }
 .fss {
   /* font-family: sans-serif; */
