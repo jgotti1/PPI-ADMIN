@@ -17,7 +17,7 @@ body {
   height: 50px;
 }
 .support {
-  color: white;
+  color: black
   display: flexbox;
   margin-left: auto;
   margin-right: 30px;
@@ -43,8 +43,16 @@ h3 {
   text-align: center;
   padding-top: 3px;
 }
+
 .box {
   height: 250px;
   background-color: rgb(218, 222, 223);
   flex-basis: 350px;
+  justify-content: center;
+}
+li {
+  list-style-position: inside;
+  text-align:justify;
+  margin-top: 10px;
+  margin-left:15px;
 }
