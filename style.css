@@ -62,7 +62,10 @@ li {
   margin-top: 15px;
   margin-left: 15px;
 }
-
+a:link,
+a:visited {
+  color: blue;
+}
 .fss {
   /* font-family: sans-serif; */
   font-weight: bold;
